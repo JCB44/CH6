@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+}
+
+.search-box {
+  width: 40%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #F9F6F2; 
+}
+
+.weather-info {
+  width: 60%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #F9F6F2; 
+}
+
+.city-temperature {
+  /* Add styling for city temperature section */
+}
+
+.forecast-container {
+  display: flex;
+}
+
+.forecast-card {
+  flex: 1;
+  /* Add styling for forecast cards */
+}
+
