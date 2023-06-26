@@ -22,10 +22,11 @@ None &nbsp;
 
 Simply enter a city name in the input and hit search! &nbsp;
 <br>
+![Screenshot_9](https://github.com/JCB44/Weather-Forcast/assets/123124957/213ed03b-1ff9-4266-8e8c-30a9320857ac)
 
 ## Credit
 
-Lindsey Isaac &nbsp;
+Lindsey Isaac https://github.com/LindseyIsaac &nbsp;
 <br>
 
 
