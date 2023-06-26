@@ -1,22 +1,43 @@
 .container {
   display: flex;
+  padding: 40px;
+  justify-content: center;
+  align-items: center;
 }
 
 .search-box {
-  width: 40%;
+  flex: 0.6;
   padding: 20px;
+  margin-right: 20px;
   border: 1px solid #ccc;
   background-color: #F9F6F2; 
+  display: flex;
+  align-items: center;
+}
+
+.search-box input[type="text"] {
+  width: 100%;
+  padding: 12px;
+  font-size: 18px;
+}
+
+.search-box button {
+  padding: 12px 24px;
+  font-size: 18px;
 }
 
 .weather-info {
-  width: 60%;
+  flex: 1.4;
   padding: 20px;
   border: 1px solid #ccc;
   background-color: #F9F6F2; 
 }
 
 .city-temperature {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   /* Add styling for city temperature section */
 }
 
@@ -26,6 +47,38 @@
 
 .forecast-card {
   flex: 1;
-  /* Add styling for forecast cards */
+  padding: 20px;
+  border: 1px solid #ccc;
+  /* Add additional styling for forecast cards */
 }
 
+h1{
+  margin: 0.5rem !important;
+}
+
+p{
+
+}
+.date{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.2rem !important;
+}
+
+.li{
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 0.4rem !important;
+  margin-bottom: 0.2rem !important;
+}
+.TWH{
+  display: flex;
+}
+
+body{
+  background-image: url(../img/high-quality-backgrounds-nature.jpg);
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+}

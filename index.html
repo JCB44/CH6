@@ -2,25 +2,71 @@
 <html>
 <head>
   <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+  <title>Weather Forcast</title>
 </head>
 <body>
   <div class="container">
     <div class="search-box">
-      <input type="text" placeholder="Enter city">
+      <input type="text" id="input" autocomplete="off" class="search-box" placeholder="Enter A City" onchange="saveInput()" />
       <button>Search</button>
     </div>
     <div class="weather-info">
       <div class="city-temperature">
-        <!-- City temperature content -->
+        <h1 class="city">Enter A City in the Search Box!</h1>
+        <h1 class="currentDate"></h1>
+       
+      <div class="TWH">
+        <div class="temp"><h1>Tempature: <span id="temp">0°</span></h1></div>
+        <div class="wind"><h1>Wind Speed: <span id="wind"></span></h1></div>
+        <div class="humidity"><h1>Humidity: <span id="humidity"></span></h1></div>
       </div>
+        
+      </div>
+     <p>5 day forecast</p>
       <div class="forecast-container">
-        <div class="forecast-card">Day 1</div>
-        <div class="forecast-card">Day 2</div>
-        <div class="forecast-card">Day 3</div>
-        <div class="forecast-card">Day 4</div>
-        <div class="forecast-card">Day 5</div>
+        <div class="forecast-card">
+            <p class="date">Date</p>
+            <p class="li">Tempature:</p>
+            <p class="li">Wind Speed:</p>
+            <p class="li">Humidity:</p>
+        </div>
+
+        <div class="forecast-card">
+          <p class="date">Date</p>
+          <p class="li">Tempature:</p>
+          <p class="li">Wind Speed:</p>
+          <p class="li">Humidity:</p>
+        </div>
+
+        <div class="forecast-card">
+          <p class="date">Date</p>
+          <p class="li">Tempature:</p>
+          <p class="li">Wind Speed:</p>
+          <p class="li">Humidity:</p>
+        </div>
+
+        <div class="forecast-card">
+          <p class="date">Date</p>
+          <p class="li">Tempature:</p>
+          <p class="li">Wind Speed:</p>
+          <p class="li">Humidity:</p>
+        </div>
+
+        <div class="forecast-card">
+          <p class="date">Date</p>
+          <p class="li">Tempature:</p>
+          <p class="li">Wind Speed:</p>
+          <p class="li">Humidity:</p>
+        </div>
+
       </div>
     </div>
   </div>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <!-- dayjs -->
+  <script src="https://cdn.jsdelivr.net/npm/dayjs@1.11.3/dayjs.min.js"
+      integrity="sha256-iu/zLUB+QgISXBLCW/mcDi/rnf4m4uEDO0wauy76x7U=" crossorigin="anonymous"></script> -->
+  <!-- javascript -->
+  <script src="./assets/js/script.js"></script>
 </body>
 </html>
